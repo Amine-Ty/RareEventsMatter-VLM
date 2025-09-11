@@ -1,0 +1,5 @@
+Observation: On a metal part, around a bolt hole, there is an irregular crack that begins at the rim of the hole and extends to the left.
+
+Presence of fatigue cracks: ✅ Yes (likely)
+
+Where: The main crack runs along the surface, originating at the edge of the hole (a stress concentration point) and spreading outward. Its rounded contour and lack of heavy plastic deformation suggest a slow fatigue process rather than a sudden overload.
