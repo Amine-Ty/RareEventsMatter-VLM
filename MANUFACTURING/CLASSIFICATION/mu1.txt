@@ -1,0 +1,5 @@
+Observation: The metallic specimen is broken in the middle, with relatively smooth fracture surfaces and parallel striations.
+
+Presence of fatigue cracks: ✅ Yes
+
+Where: Cracks start from the lateral edge of the fracture and propagate toward the center. The striation pattern indicates progressive growth under cyclic loads, typical of a fatigue fracture.
