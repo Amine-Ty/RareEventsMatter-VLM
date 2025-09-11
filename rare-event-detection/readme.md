@@ -1,4 +1,4 @@
-![Synergy Quote](https://www.azquotes.com/picture-quotes/quote-the-word-synergy-comes-from-the-greek-sin-ergo-meaning-to-work-together-it-describes-r-buckminster-fuller-114-14-41.jpg)
+![Synergy Quote](https://www.azquotes.com/picture-quotes/quote-to-do-more-and-more-with-less-and-less-until-eventually-you-can-do-everything-with-nothing-r-buckminster-fuller-138-66-92.jpg)
 
 
 # Rare Event Detection with Few-Shot Multimodal AI
