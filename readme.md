@@ -168,10 +168,7 @@ npx http-server -p 3000
 
 ---
 
-## 🤝 Contributing
-Hackathon project. Contributions and improvements are welcome.
 
----
 
 
 
