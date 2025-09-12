@@ -1,0 +1,103 @@
+{
+  "branding": {
+    "name": "VLM\u2011Inspector",
+    "logo": "/Users/khalidysf/Desktop/images/WhatsApp Image 2025-09-10 at 09.16.01.jpeg",
+    "accent_colors": {
+      "tropical_medicine": "#EA580C",
+      "crop_health": "#16A34A",
+      "manufacturing": "#2563EB"
+    },
+    "hero_logo": "/Users/khalidysf/Desktop/images/Capture d’écran 2025-09-11 à 18.02.07.png",
+    "app_icons": {
+      "tropical_medicine": "/Users/khalidysf/Desktop/images/med_centered.png",
+      "crop_health": "/Users/khalidysf/Desktop/images/vlm_inspector_crop_health.png",
+      "manufacturing": "/Users/khalidysf/Desktop/images/vlm_inspector_manufacturing_centered.png"
+    },
+    "plus_icon": "/Users/khalidysf/Desktop/plus_icon_from_user_1024x341.png"
+  },
+
+  "domains": {
+    "tropical_medicine": {
+      "title": "Tropical Medicine",
+      "fewshot": [
+        "/Users/khalidysf/Desktop/images/s1.jpg",
+        "/Users/khalidysf/Desktop/images/s2.jpg",
+        "/Users/khalidysf/Desktop/images/s3.jpg"
+      ],
+      "fewshot_captions": [
+        "A sun-related keratinocyte skin cancer that often appears as a firm, tender red nodule or plaque with a central crusted/ulcerated area on sun-exposed skin; this looks consistent and should be evaluated promptly in person (biopsy confirms).",
+        "A sun-induced, precancerous lesion from chronic UV damage to keratinocytes, typically appearing as a rough, pink, scaly macule or papule on sun-exposed skin (e.g., forehead/temples); this looks consistent, though only a clinician can diagnose and it merits evaluation due to a small risk of progression to squamous cell carcinoma.",
+        "This is an inflammatory skin condition involving the hair follicle–sebaceous unit. It’s typically driven by follicular plugging, excess sebum, Cutibacterium acnes overgrowth, and local inflammation; friction, occlusive cosmetics, and hormonal change can worsen it."
+      ],
+      "generated": {
+        "image": "/Users/khalidysf/Desktop/images/s4.jpg",
+        "caption": "An asymmetrical, dark lesion with variegated black–violet color, irregular/scalloped borders, and an uneven, raised surface—features concerning for malignant melanoma; this warrants prompt in-person dermatologic evaluation (dermoscopy/biopsy confirms)."
+      },
+      "classification": {
+        "test_image": "/Users/khalidysf/Desktop/Classification/SU2.jpeg",
+        "predicted_class": "Lesioned",
+        "why": "The lesion has a shiny, rolled pearly rim encircling a central ulcer with crust—signs of destructive growth rather than a benign bump. Fine branching surface vessels and asymmetry with color/texture contrast further signal pathology on sun-damaged skin. This pattern is characteristic of a basal cell carcinoma–type lesion, though only an exam/biopsy can confirm."
+      }
+    },
+    "crop_health": {
+      "title": "Crop Health",
+      "fewshot": [
+        "/Users/khalidysf/Desktop/images/o1.jpg",
+        "/Users/khalidysf/Desktop/images/o2.jpg",
+        "/Users/khalidysf/Desktop/images/o3.png"
+      ],
+      "fewshot_captions": [
+        "The peacock spot or olive leaf spot (Spilocaea oleagina) is the most important olive fungal disease and, together with olive knot, is among the conditions that most affect the well-being of the olive grove. This fungal disease is caused by the fungus Spilocaea oleagina. The symptoms are extremely characteristic and easily recognizable. On olive leaves, the fungus appears as circular grayish spots, darker in the center and surrounded by a yellow halo.",
+        "Olive cercospora leaf spot (Mycocentrospora cladosporioides) It is a serious disease caused by the fungus Mycocentrospora cladosporioides, which is widespread in most olive-growing regions of the world. This disease is particularly important because it causes leaf drop and partial defoliation of branches, which weaken the trees and reduce production. The disease may take several years before becoming severe enough in a particular area to cause economic damage. The first signs of cercospora leaf spot appear as gray spots on the underside of the leaves, which seem to be covered with black dust or sooty mold.",
+        "Olive anthracnose It is a disease caused by the fungus Colletotrichum gloeosporioides, which attacks the fruits causing severe damage under certain climatic conditions and in particular olive varieties. The drupes affected by this fungus show dark, rotting-looking depressions, and the infected fruit, as it evolves, may either fall to the ground or dehydrate and remain attached to the plant, forming the so-called mummies."
+      ],
+      "generated": [
+        {
+          "image": "/Users/khalidysf/Desktop/images/Ogenerated/go1.png",
+          "caption": "In the image, there is an olive branch with three green olives showing clear symptoms of anthracnose. Each fruit displays large circular sunken spots, dark brown in color with an orange-reddish center and darker edges. These lesions have a decayed and necrotic appearance, typical of fungal infections. The surrounding leaves are green and intact, further highlighting the contrast with the diseased fruits."
+        },
+        {
+          "image": "/Users/khalidysf/Desktop/images/Ogenerated/go2.jpg",
+          "caption": "The image shows a close-up of an olive tree branch. In the center, there is a yellowing leaf affected by olive peacock spot (Spilocaea oleagina). The leaf displays multiple dark circular lesions, with some spots having darker centers and irregular edges, surrounded by a yellowish halo. These spots are scattered across the entire surface of the leaf, a typical symptom of fungal infection.Around the diseased leaf, the other olive leaves appear healthy, dark green, and intact, which highlights the strong contrast between healthy and infected foliage. The background is softly blurred, with shades of green from the surrounding vegetation, creating a realistic and natural setting."
+        }
+      ],
+      "classification": [
+        {
+          "test_image": "/Users/khalidysf/Desktop/Classification/Capture d’écran 2025-09-11 à 22.53.07.png",
+          "predicted_class": "Infected",
+          "why": "The leaf shows multiple circular, dark gray-black velvety lesions each with a distinct yellow chlorotic halo on a generally yellowing blade—classic “peacock-eye” pattern. This fungal disease infects leaves during cool, wet periods; spores formed in old spots spread with rain splash and dew, leading to new lesions, premature defoliation, and reduced vigor/yield.",
+          "heatmap": "/Users/khalidysf/Desktop/images/Oclassification/Capture d’écran 2025-09-11 à 22.53.59.png"
+        },
+        {
+          "test_image": "/Users/khalidysf/Desktop/Classification/Capture d’écran 2025-09-11 à 22.53.44.png",
+          "predicted_class": "Uninfected",
+          "why": "The blade shows uniform deep-green color with smooth margins and intact cuticle; there are no circular gray-black lesions or yellow halos typical of peacock spot, nor chlorotic blotches, necrotic specks, insect feeding, or water-soaked areas. Venation is regular and turgor preserved—features consistent with a healthy leaf.",
+          "heatmap": "/Users/khalidysf/Desktop/images/Oclassification/Capture d’écran 2025-09-11 à 22.54.09.png"
+        }
+      ]
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "fewshot": [
+        "/Users/khalidysf/Desktop/images/m1.jpg",
+        "/Users/khalidysf/Desktop/images/m3.jpg",
+        "/Users/khalidysf/Desktop/images/m44.jpg"
+      ],
+      "fewshot_captions": [
+        "A segment of the rim is missing and a sharp radial crack propagates downward from the chipped notch, with fine secondary fissures along the lip—features of a high-stress concentration failure. The morphology is consistent with impact/handling damage or thermal shock, potentially worsened by casting/heat-treat defects. This compromises structural integrity and the part should be removed from service.",
+        "An open, linear fracture runs along the plate, initiating at the stress-concentrating edge of the threaded hole and the adjacent weld bead. The lumpy spot weld shows cold-lap/lack-of-fusion with crater rings, indicating a poor repair; residual welding stresses plus cyclic loading likely propagated the crack through thickness along the metal surface.",
+        "A jagged, open fissure cuts across the machined face, widest at the free edge and tapering inward, with rough granular flanks and debris—consistent with initiation at an edge defect and propagation under cyclic or thermal stresses; the part’s integrity is compromised."
+      ],
+      "generated": {
+        "image": "/Users/khalidysf/Desktop/images/Mgenerated/G2.jpg",
+        "caption": "The orange topcoat shows widespread brittle craze cracks and chips, lifting from the surface and exposing the pale undercoat; the right band has severe delamination with blistered patches, consistent with aged/incompatible layers, UV/thermal cycling, and moisture-driven loss of adhesion."
+      },
+      "classification": {
+        "test_image": "/Users/khalidysf/Desktop/Classification/mu2.jpg",
+        "observation": "On a metal part, around a bolt hole, there is an irregular crack that begins at the rim of the hole and extends to the left.",
+        "predicted_class": "Yes (likely)",
+        "why": "The main crack runs along the surface, originating at the edge of the hole (a stress concentration point) and spreading outward. Its rounded contour and lack of heavy plastic deformation suggest a slow fatigue process rather than a sudden overload."
+      }
+    }
+  }
+}

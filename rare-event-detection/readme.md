@@ -1,5 +1,4 @@
-![Synergy Quote](https://www.azquotes.com/picture-quotes/quote-to-do-more-and-more-with-less-and-less-until-eventually-you-can-do-everything-with-nothing-r-buckminster-fuller-138-66-92.jpg)
-
+![Alt text](logo.png)
 
 # Rare Event Detection with Few-Shot Multimodal AI
 
@@ -174,5 +173,8 @@ Hackathon project. Contributions and improvements are welcome.
 
 ---
 
-**Happy Hacking! 🚀**
 
+
+![Synergy Quote](https://www.azquotes.com/picture-quotes/quote-to-do-more-and-more-with-less-and-less-until-eventually-you-can-do-everything-with-nothing-r-buckminster-fuller-138-66-92.jpg)
+
+**Happy Hacking! 🚀**
